@@ -1,0 +1,50 @@
+<html>
+<head>
+    <title>Configuration of ONEDRIVE</title>
+</head>
+<body>
+    <h1>Configuration of ONEDRIVE</h1>
+
+    <p>As a user, I want to Configure ONEDRIVE by logging into the Sacral.ai website and following the required steps so that I can use the Sacral.ai Services.</p>
+
+    <h3>Acceptance Criteria</h3>
+    <ul>
+        <li>Ability to navigate to the sacral.ai website and login into the sacral.ai website.</li>
+        <li>Ability to successfully login and access “Expert Services to change Business” page.</li>
+        <li>Ability to click on Configure.</li>
+        <li>Ability to click on ONEDRIVE.</li>
+        <li>The user must provide a ONEDRIVE username, password, URL and repository name.</li>
+        <li>Ability to click on reset button to enter the details again.</li>
+        <li>Ability to click on save button to configure.</li>
+        <li>The Java API must validate the ONEDRIVE credentials and return a response indicating whether authentication was successful or not.</li>
+        <li>Ability to display the list with Title, User Name, URL, Action.</li>
+        <li>Ability to display edit button and delete button to make any changes to the displayed list Title, User Name and URL.</li>
+        <li>Ability to change the No of entries to display in the list, while clicking on dropdown button in “Show entries”.</li>
+        <li>Ability to display pagination under the list.</li>
+        <li>Ability to click on pagination to change the page numbers.</li>
+        <li>Ability to display Add more button above the list to configure other ONEDRIVE.</li>
+        <li>Ability to click on Add more button.</li>
+        <li>Ability to display Pop Up form.</li>
+        <li>Ability to Ability to enter the required details.</li>
+        <li>Ability to click on reset button to enter the details again.</li>
+        <li>Ability to click on save button to configure.</li>
+    </ul>
+
+    <h3>Acceptance Testing</h3>
+    <ul>
+        <li>Verify to make sure that the user is able to navigate to the sacral.ai website and login successfully.</li>
+        <li>Verify to make sure that the user is able to access the “Expert Services to change Business” page after login.</li>
+        <li>Verify to make sure that the user is able to click on Configure.</li>
+        <li>Verify to make sure that the user is able to click on ONEDRIVE.</li>
+        <li>Verify to make sure that a Pop Up form is displayed when the user clicks on ONEDRIVE.</li>
+        <li>Verify that the user is prompted to enter their ONEDRIVE username, password, URL, and repository name.</li>
+        <li>Verify to make sure that the user is able to click on the reset button to clear the details entered in the Pop Up form.</li>
+        <li>Verify to make sure that the user is able to click on the save button to configure.</li>
+        <li>Verify to make sure ONEDRIVE is configured after clicking on save button.</li>
+        <li>Verify that the Java API successfully authenticates the ONEDRIVE credentials and returns a response indicating success.</li>
+        <li>Verify to make sure that a list is displayed with Title, User Name, URL, and Action after successful configuration.</li>
+        <li>Verify to make sure that the user is able to click on the edit button and make changes to the Title, User Name, and URL.</li>
+        <li>Verify to make sure that the user is able to click on the delete button to delete a particular title from the list.</li>
+        <li>Verify to make sure that the user is able to change the number of entries to display in the list while clicking on the dropdown button in “Show entries”.</li>
+        <li>Verify to make sure that pagination is displayed under the list and the user is able to click on it to change the page numbers.</li>
+        <li>Verify to make sure that the user is able to click on the Add more button above the list to configure other ONED
